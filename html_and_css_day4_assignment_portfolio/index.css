@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+    height: 80px;
+    width: 100%;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo css  */
+
+.logo{
+    width: 15%;
+    height: 80px;
+    /* background-color: yellow; */
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+/* navigation css  */
+.nav{
+    width: 35%;
+    height: 80px;
+    /* background-color: yellow; */
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-link{
+    list-style-type:none;
+    height: 80px;
+    width: 25%;
+    /* background-color: red; */
+    text-align: center;
+    line-height: 80px;
+    font-family: 'segoe UI';
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:hover{
+    background-color: rgb(192, 255, 234);
+    color: black;
+}
+
+
+/* banner css  */
+
+.banner{
+    height: 700px;
+    width: 100%;
+    background-color: grey;
+    background-image: url('./images/tony-stark-iron-man.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner-section{
+    height: 200px;
+    width: 40%;
+    /* background-color: white; */
+    margin-left: 10%;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'segoe UI';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: #d00b0b;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #84ea0f;
+}
+
+/* films css  */
+
+.films{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.films-container{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'segoe UI';
+}
+
+.film-card{
+    width: 30%;
+    height: 450px;
+    background-color: yellow;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.film-detail{
+    height: 225px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.film-detail:hover{
+    height: 450px;
+}
+
+.film-title{
+    color: white;
+    font-family: 'segoe UI';
+    font-size: 40px;
+}
+
+.padd{
+    padding: 20px;
+}
+
+.card-1{
+    background-image: url('http://posterposse.com/wp-content/uploads/2016/10/Doctor-Strange-Poster-Marvel-Official.jpg');
+}
+
+.card-2{
+    background-image: url('https://cdn.wallpapersafari.com/14/6/d5SoyN.jpg');
+}
+
+.card-3{
+    background-image: url('https://cellularnews.com/wp-content/uploads/2020/04/08-avengers-endgame-movie-poster-wallpaper-325x485.png');
+}
+
+.card-4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoDHN_W7dWvD9gEav376fXZAwvFXs_ldDKeQ&usqp=CAU');
+}
+
+.card-5{
+    background-image: url('https://cdnb.artstation.com/p/assets/covers/images/039/435/349/large/didier-konings-didier-konings-thumbnail-generator-copy34.jpg?1625890279');
+}
+
+.card-6{
+    background-image: url('https://www.themoviedb.org/t/p/original/mZQsFMKwmUSw3MA8efajlco0ibB.jpg');
+}
+
+
+
