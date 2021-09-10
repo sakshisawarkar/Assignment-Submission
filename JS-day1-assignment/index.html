@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java Script</title>
+    
+    </head>
+    <body>
+        <h1>Hello Everyone</h1>
+    
+    
+
+        <script>
+
+
+             console.log("BINARY OPERATORS"); 
+
+            var num1 = 45;
+            var num2 = 23;
+
+            console.log("1.Arithmetic operator");  //(+,-,*,/,%)
+            console.log(num1-num2);
+            console.log(num1+num2);
+            console.log(num1*num2);
+            console.log(num1/num2);
+            console.log(num1%num2);
+
+
+            console.log("2.Assignment operator");     //(=, +=, -=, /=, *=, %= )
+            num1 += num2;  //num1 = num1+num2
+            console.log(num1);
+            num1 -= num2; //num1 = num1-num2
+            console.log(num1);
+            num1 = num2; 
+            console.log(num1);
+            num1 /= num2; 
+            console.log(num1);
+            num1 *= num2; 
+            console.log(num1);
+            num1 %= num2; 
+            console.log(num1)
+
+
+
+            console.log("3.relational operator");   //(>, >=, <=, <, ==, !=)
+
+            console.log(num1<num2);
+            console.log(num1<=num2);
+            console.log(num1>num2);
+            console.log(num1>=num2);
+            console.log(num1==num2);
+            console.log(num1!=num2);
+
+
+
+
+            console.log("4.Identity operator");    // identity operator check the type of the given variance value
+            var num1 = "45";
+            var num2 = 45;
+
+            console.log(num1===num2);
+            console.log(num1!==num2);
+
+
+
+
+            console.log("5. Logical operator");       //(&& =AND, ||=OR, !=NOT)
+
+            var num1 = 35;
+            var num2 = 45;
+            var num3 = 55;
+
+            console.log("I. AND operator");
+            console.log(num1<num2 && num2<num3);
+            console.log(num1<num2 && num2>num3);
+            console.log(num1>num2 && num2>num3);
+            console.log(num1>num2 && num2<num3);
+
+            console.log("II. OR operator");
+            console.log(num1<num2 || num2<num3);
+            console.log(num1<num2 || num2>num3);
+            console.log(num1>num2 || num2>num3);
+            console.log(num1>num2 || num2<num3);
+
+            console.log("III. NOT operator");
+            console.log(!true);
+            console.log(!false);
+
+        </script>
+    </body>
+</html>
